@@ -1,0 +1,62 @@
+a {
+    color: grey;
+    text-decoration: none;
+}
+a:visited {
+    color: rgb(143, 143, 143);
+    text-decoration: none;
+}
+a:hover {
+    color: lightblue
+}
+button {
+    background-Color: rgb(0, 132, 209);
+    color: white;
+    height: 43px;
+    width: 200px;
+    border: none;
+    margin-bottom: 20px;
+  }
+
+.container {
+    color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    width: 500px;
+    height: 600px;
+    box-shadow: 0 0 30px rgb(117, 117, 117);
+    
+    
+}
+.alttext {
+    padding: -20px;
+}
+h2 {
+    color: black;
+    margin-top: 25%;
+
+}
+input {
+    width: 50%;
+    height: 30px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-color: lightgrey;
+    margin-bottom: 30px;
+}
+
+body {
+    background-color: rgb(188, 231, 245);
+    display: flex;
+    justify-content: center; 
+    padding: 25%;   
+  }
+
+
+  button:hover {
+    color: black;
+  }
